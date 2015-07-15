@@ -17,3 +17,7 @@
 /tmp
 
 public/system/
+
+.DS_Store
+.zip
+spec/files/coffee.zip

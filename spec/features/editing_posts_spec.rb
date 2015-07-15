@@ -11,6 +11,15 @@ feature 'Editing posts' do
     # click the 'edit post' link
     click_link 'Edit Post'
   end
+  scenario 'Blank image update' do
+    # starting after the actions in the background block:
+    # fill in the 'Image' field with nothing
+    attach_file('Image', 'spec/files/coffee.zip')
+    # click the 'Update Post' button
+    click_button 'Update Post'
+    # expect to see the message: 'Something is wrong with your form!'
+    expect(page).to have_content("Something is wrong with your form!")
+  end
   scenario 'Can edit a post' do
     # fill in 'Caption' with "Oh god, you weren’t meant to see this picture!"
     fill_in 'Caption', with: "Oh god, you weren't meant to see this picture!"
