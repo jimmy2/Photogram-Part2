@@ -1,3 +1,3 @@
-Let's Build: Instagram with Rails. Log in and tell me I'm beautiful.
+Let's Build: Instagram (Test Driven with Ruby on Rails) - Part 1
 
-http://www.devwalks.com/lets-build-instagram-with-rails-like-me-and-tell-me-im-beautiful/
+http://www.devwalks.com/lets-build-instagram-test-driven-with-ruby-on-rails-part-1/
